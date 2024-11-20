@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma;
+}
+.navbar {
+  height: 70px;
+  background-color: #13503c;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  padding: 4px;
+}
+
+.amazon-logo {
+  width: 140px;
+  height: 62px;
+  background-image: url("./amazon-logo-amazon-icon-transparent-free-png.webp");
+  background-size: cover;
+  margin-left: 15px;
+}
+.paraone {
+  font-size: 0.85rem;
+  margin-left: 10px;
+}
+.parasec {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+.border {
+  border: 1.5px solid transparent;
+  margin-left: 5px;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+  border-radius: 2px;
+}
+
+.bordernew {
+  border: 2.5px solid transparent;
+  margin-left: 5px;
+}
+
+.bordernew:hover {
+  border: 2.5px solid pink;
+  border-radius: 6px;
+}
+
+.searchbar {
+  width: 750px;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2px;
+}
+
+.list {
+  width: 120px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.opt {
+  width: 100vw;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.new {
+  width: 120px;
+  background-color: rgb(164, 44, 144);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.lang {
+  width: 122px;
+  margin-left: 8px;
+  padding: 15px 2px;
+}
+.icon {
+  font-size: 22px;
+  background-color: rgb(215, 147, 159);
+}
+
+.signin {
+  color: whitesmoke;
+}
+.usertxt {
+  font-size: 0.75rem;
+}
+
+.ord {
+  padding: 8px;
+  color: whitesmoke;
+}
+
+.cart {
+  padding: 12px 5px;
+}
+
+.carticon {
+  font-size: 1.8rem;
+}
+
+.panel {
+  height: 39px;
+  background-color: #1a5d4f;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.menuicon {
+  font-size: 1.5rem;
+}
+.first-item {
+  width: 60px;
+  margin-left: 10px;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  padding: 5px 4px;
+  font-weight: 550;
+}
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  padding: 8px 10px;
+}
+
+.herosec {
+  width: 98.8vw;
+  height: 300px;
+  background-image: url("./71u+Dtt6JTL._SX3000_.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.amzlink {
+  height: 40px;
+  width: 97vw;
+  background-color: white;
+  color: rgb(29, 28, 28);
+  text-align: center;
+  margin-bottom: 25px;
+}
+.herosec p {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+.herosec a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #007185;
+}
+
+.actcontent {
+  width: 98.8vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #b5ceb4;
+}
+
+.box {
+  width: 22vw;
+  height: 350px;
+  /* border: 2px solid rebeccapurple; */
+  background-color: rgb(238, 235, 235);
+  margin-top: 10px;
+}
+
+.box h2{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box img{
+  width: 95%;
+  height: 80%;
+  padding: 10px;
+  margin-left: 8px;
+  border-radius: 15px;
+}
+
+.box a {
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 0.85rem;
+  color: #007185;
+}
+
+.footerlink {
+  height: 50px;
+  width: 98.8vw;
+  background-color: #37475a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerlink a{
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.lastsec {
+  height: 380px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 30px;
+  background-color: #222f3d;
+  color: whitesmoke;
+
+}
+
+.lastsec p {
+  font-size: 1.1rem;
+}
+.lastsec a{
+  color: white;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.firstgrp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.secondgrp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.thirdgrp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.fourthgrp {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+
+.verylast {
+  width: 98.8vw;
+  background-color: #222f3d;
+}
+.lastlogo {
+  width: 100px;
+  height: 50px;
+  background-image: url("./amazon-logo-1024x683.png");
+  background-size: cover;
+}
+
+.verylast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.verylast div {
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  border: 0.1px solid whitesmoke;
+  border-radius: 4px;
+  margin: 25px;
+  font-size: 0.85rem;
+}
+
+
+hr.new4 {
+  border: 0.2px solid rgb(123, 123, 123);
+}
+
+.lastline {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c4754;
+  color: white;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+
